@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Suresh</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/5f230f3b92.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+    <div id="header">
+      <div class="container">
+        <nav >
+          <img src="img/logo.JPG" class="logo" alt="">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#">Other Ventures</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+            <img src="img/cross-removebg-preview.png" class="img" onclick="closemenu()">
+          </ul>
+          <img src="img/menu-removebg-preview.png" id="menu" class="img" onclick="openmenu()">
+        </nav>
+        <div class="header-text" data-aos="fade-right" data-aos-duration="1000">
+          <p>Aspiring DSA Specialist</p>
+          <h1>Hi, I'm <span>Akash Suresh</span></h1>
+          <p>Sophomore at SRM Institute of Science and Technology, Kattankulathur </p>
+        </div>
+      </div>
+    </div>
+    <!------------------about-------------->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="img/pic.jpg" data-aos-duration="1000" alt="">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title" data-aos="fade-left" data-aos-duration="1000">About me</h1>
+              <p data-aos="fade-left" data-aos-duration="1000">Hi, I am currently doing my Sophomore Engineering Undergraduate from SRM Institute of Engineering and Technology, 
+               Kattankulathur.                       
+               I am persuing B.Tech in Computer Science Engineering with specialisation in Cloud Computing. I have a keen interest in Operating systems and Data structures as well as a 
+               little bit of Web Development to the side.
+               I am also very active in my social media platforms and am focusing on sharing my learnings on other platforms.
+               I have been trying to acquire more knowledge and experience by taking part in hackathons and other activities as well as joining many club related clubs.
+               Apart from this I am also a audiophile and love listening to music. I aim to hone my DSA problem solving skillsafter properly rooting my basics.</p>
+              <div class="tab-titles" data-aos="fade-right" data-aos-duration="1000">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills" data-aos="fade-left" data-aos-duration="1000">
+                <ul>
+                  <li><span>Java, C, C++, Python </span><br>Programming</li>
+                  <li><span>HTML, CSS, Javascript</span><br>Front-end Web developement</li>
+                  <li><span>Reviewing</span><br>Blogs, Songs, Articles</li>
+                  <li><span>PR Work</span><br>For The GradSchool</li>
+                  <li><span>Management Work</span><br>Organising many tech and non-tech events</li>  
+                  
+                  
+                  <li><span>Canva,Github</span><br>Tools</li>  
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>10+2(2020-2022)</span><br>Bharatiya Vidya Bhavan, Thrissur</li>
+                  <li><span>Bachelors in Technology (Computer Science Engineering w/s in Cloud Computing) (2022-2026)</span><br>SRM Institue of Science and Technology, Kattankulathur</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--PROJECTS-->
+      <div id="projects">
+        <div class="container">
+          <h1 class="sub-title" data-aos="fade-right" data-aos-duration="1000">Projects</h1>
+          <div class="project-list" data-aos="fade-left" data-aos-duration="1000">
+            <div class="work">
+              //<img src="img/restaurant.jpg">
+              <div class="layer">
+                <h3>Coming Soon!</h3>
+                
+              </div>
+            </div>
+            
+            
+
+           
+
+            
+
+          </div>
+        </div>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <!-------------------contact---------------------->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left" data-aos="fade-right" data-aos-duration="1000">
+              <h1 class="sub-title contactme">Contact Me</h1>
+              <p><img src="img/email-removebg-preview.png" alt=""> sureshakash081@gmail.com</p>
+              <p><img src="img/phone-removebg-preview.png" alt=""> +91 9656498762</p>
+              <div class="social-icons">
+               
+                <a href="https://www.instagram.com/_.akash_suresh/" target="_blank" class="insta"><img src="img/insta-removebg-preview.png"></a>
+                <a href="https://www.linkedin.com/in/akash-suresh-805849160/" target="_blank" class="linkedin"><img src="img/linkedin-removebg-preview.png"></a>
+                <a href="https://twitter.com/AkashSu67345627" target="_blank" class="tw"><img src="img/twitter-removebg-preview.png"></a>
+                <a href="https://github.com/as4348" target="_blank" class="git"><img src="img/github-removebg-preview.png"></a>
+              </div>
+              <a href="docs/current resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right" data-aos="fade-left" data-aos-duration="1000">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required id="">
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" id="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="copyright">
+          <p>MADE BY AKASH SURESH </p>
+        </div>
+      </div>
+      <!--javascript-->
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+          sidemenu.style.right = "0";
+        }
+        function closemenu(){
+          sidemenu.style.right = "-200px";
+        }
+      </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbylbkURwSaKw1CbZ8J-DaJ1HR3vOQ822EoplacXLVEcMtQ01qmwOU2M3alBA659yurtfg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              msg.innerHTML = "Message Sent Successfully"
+              setTimeout(function(){
+                msg.innerHTML = ""
+              },5000)
+              form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
